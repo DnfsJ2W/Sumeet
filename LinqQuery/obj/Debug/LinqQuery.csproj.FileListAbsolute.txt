@@ -1,0 +1,7 @@
+C:\Users\ycs\source\repos\LinqQuery\LinqQuery\bin\Debug\LinqQuery.exe.config
+C:\Users\ycs\source\repos\LinqQuery\LinqQuery\bin\Debug\LinqQuery.exe
+C:\Users\ycs\source\repos\LinqQuery\LinqQuery\bin\Debug\LinqQuery.pdb
+C:\Users\ycs\source\repos\LinqQuery\LinqQuery\obj\Debug\LinqQuery.csprojAssemblyReference.cache
+C:\Users\ycs\source\repos\LinqQuery\LinqQuery\obj\Debug\LinqQuery.csproj.CoreCompileInputs.cache
+C:\Users\ycs\source\repos\LinqQuery\LinqQuery\obj\Debug\LinqQuery.exe
+C:\Users\ycs\source\repos\LinqQuery\LinqQuery\obj\Debug\LinqQuery.pdb
