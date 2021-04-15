@@ -1,0 +1,12 @@
+D:\proj\RailwayReservationSystem\RSS_DAL\bin\Debug\RSS_DAL.dll.config
+D:\proj\RailwayReservationSystem\RSS_DAL\bin\Debug\RSS_DAL.dll
+D:\proj\RailwayReservationSystem\RSS_DAL\bin\Debug\RSS_DAL.pdb
+D:\proj\RailwayReservationSystem\RSS_DAL\bin\Debug\EntityFramework.dll
+D:\proj\RailwayReservationSystem\RSS_DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\proj\RailwayReservationSystem\RSS_DAL\bin\Debug\EntityFramework.xml
+D:\proj\RailwayReservationSystem\RSS_DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\proj\RailwayReservationSystem\RSS_DAL\obj\Debug\RSS_DAL.csprojAssemblyReference.cache
+D:\proj\RailwayReservationSystem\RSS_DAL\obj\Debug\RSS_DAL.csproj.CoreCompileInputs.cache
+D:\proj\RailwayReservationSystem\RSS_DAL\obj\Debug\RSS_DAL.csproj.CopyComplete
+D:\proj\RailwayReservationSystem\RSS_DAL\obj\Debug\RSS_DAL.dll
+D:\proj\RailwayReservationSystem\RSS_DAL\obj\Debug\RSS_DAL.pdb
