@@ -1,0 +1,37 @@
+﻿@page
+@model razorcore.Pages.DemoModel
+@{
+}
+
+<form method="post">
+    <table>
+        <tr>
+            <td>Enter a Number</td>
+            <td>
+                <input asp-for="@Model.Calci.Num1" />
+            </td>
+        </tr>
+        <tr>
+            <td>Enter a Number</td>
+            <td>
+                <input asp-for="@Model.Calci.Num2" />
+            </td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td>
+                @Html.DisplayFor(Model=>Model.Calci.Result)
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Add" asp-page-handler="Add"/>
+            
+                <input type="submit" value="Subtract" asp-page-handler="Sub" />
+          
+            <input type="submit" value="Multiply" asp-page-handler="Mul"  />
+            
+                <input type="submit" value="Divide" asp-page-handler="Div" />
+            </td>
+        </tr>
+    </table>
+    </form>

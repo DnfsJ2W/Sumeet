@@ -1,0 +1,23 @@
+﻿@page
+@model razorcore.Pages.EmployeeModel
+@{
+
+
+}
+<style>
+    #error {
+        color: red;
+        font-size: large;
+        font-weight: bold;
+    }
+</style>
+
+<p id="error">@ViewData["ErrorMessage"]</p>
+<form method="post">
+    Enter UserName :
+    <input asp-for="@Model.Logins.UserName" /><br />
+    Enter Password :
+    <input asp-for="@Model.Logins.Password" /><br />
+    <input type="submit" value="Login" />
+</form>
+
