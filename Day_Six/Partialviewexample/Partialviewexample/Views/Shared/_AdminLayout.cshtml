@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_AdminLayout</title>
+    <link href="~/Content/customstyle.css" rel="stylesheet" />
+</head>
+<body>
+   
+    <header>
+        <h2>Cities</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="/Home/Page1">Page1</a></li>
+                <li><a href="/Home/Contact">Contact us</a></li>
+                <li><a href="/Home/About">About us</a></li>
+            </ul>
+        </nav>
+
+        <article>
+        @RenderBody()
+        </article>
+    </section>
+
+    <footer>
+        <p>Footer </p>
+    </footer>
+
+</body>
+</html>
