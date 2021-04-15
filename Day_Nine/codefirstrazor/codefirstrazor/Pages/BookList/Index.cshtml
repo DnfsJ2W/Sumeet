@@ -1,0 +1,39 @@
+﻿@page
+@model codefirstrazor.Pages.BookList.IndexModel
+@{
+}
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(b => b.Books[0].Title)</th>
+            <th>@Html.DisplayNameFor(b => b.Books[0].Price)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Books)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelitem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelitem => item.Price)
+                </td>
+                <td>
+
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+
+                </td>
+            </tr>
+        }
+        </tbody>
+</table>
+
+
