@@ -1,7 +1,0 @@
-.vs
-EMS_DAL/bin
-EMS_DAL/obj
-EMS_REPO/bin
-EMS_REPO/obj
-EMS_UI/bin
-EMS_UI/obj

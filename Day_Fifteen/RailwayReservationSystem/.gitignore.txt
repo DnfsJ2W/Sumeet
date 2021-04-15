@@ -1,9 +1,0 @@
-.vs
-RSS_DAL/bin
-RASS_DAL/obj
-RSS_REPO/bin
-RASS_REPO/obj
-RSS_UI/bin
-RSS_UI/obj
-RSS_UI.Tests/bin
-RSS_UI.Tests/obj
