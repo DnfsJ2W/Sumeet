@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LinqQuery.ReadQuery</StartupObject>
+    <StartupObject>LinqQuery.Grouping</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,8 +49,11 @@
     <Compile Include="DefferedQueryExecution.cs" />
     <Compile Include="even.cs" />
     <Compile Include="arraysearch.cs" />
+    <Compile Include="Grouping.cs" />
     <Compile Include="Join.cs" />
+    <Compile Include="LinqQueryProcess.cs" />
     <Compile Include="LINQToDataSet.cs" />
+    <Compile Include="LinqtoXml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadQuery.cs" />
     <Compile Include="smallandbignumber.cs" />
